@@ -156,8 +156,8 @@ int64_t GetMaximumValue(uint64_t NumLen)
 
 int main()
 {
-	string Exp;
-	cin >> Exp;
+	string Exp = "5-8+7*4-8+9";
+	//cin >> Exp;
 
 	Numbers[0] = (uint64_t)Exp[0] - 48 ;
 	for( uint64_t i = 1; i < (uint64_t)Exp.size() ; i = i+2)
